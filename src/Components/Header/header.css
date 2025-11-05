@@ -28,7 +28,7 @@ h1 {
   padding: var(--space-sm);
   color: var(--text-muted);
   font-family: var(--font-three);
-  font-size: var(--font-sm);
+  font-size: var(--font-xsm);
   transition: all 0.3s ease;
 }
 
