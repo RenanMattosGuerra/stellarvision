@@ -12,7 +12,7 @@ const Home = () => {
           <div className="earth-gif"></div>
         </div>
         <div className="main-wrapper">
-          <img className="main-img"></img>
+          <img className="main-img" alt="Ilustrative Astronaut Image"></img>
 
           <Link to="/reservation" className="home-link">
             <div className="main-text">
@@ -32,7 +32,7 @@ const Home = () => {
             <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" />
           </Link>
         </div>
-        <div className="section-img"></div>
+        <div className="section-img" alt="Ilustrative Satellite image"></div>
       </section>
     </div>
   );

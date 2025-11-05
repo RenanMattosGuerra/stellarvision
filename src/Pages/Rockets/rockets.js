@@ -4,7 +4,10 @@ const Rockets = () => {
   return (
     <section className="rockets-section">
       <article>
-        <div className="rocket-img rocket-one"></div>
+        <div
+          className="rocket-img rocket-one"
+          alt="Rocket One Ilustrative Image"
+        ></div>
         <div className="rocket-text">
           <h2>RCKT0123</h2>
           <p>
@@ -18,7 +21,10 @@ const Rockets = () => {
       </article>
 
       <article>
-        <div className="rocket-img rocket-two"></div>
+        <div
+          className="rocket-img rocket-two"
+          alt="Rocket Two Ilustrative Image"
+        ></div>
         <div className="rocket-text">
           <h2>RCKT4567</h2>
           <p>
@@ -32,7 +38,10 @@ const Rockets = () => {
       </article>
 
       <article>
-        <div className="rocket-img rocket-three"></div>
+        <div
+          className="rocket-img rocket-three"
+          alt="Rocket Three Ilustrative Image"
+        ></div>
         <div className="rocket-text">
           <h2>RCKT8910</h2>
           <p>
