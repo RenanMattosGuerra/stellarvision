@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  .nav-links {
+    font-size: var(--font-md);
+  }
+  h1 {
+    font-size: var(--font-lg);
+  }
+  nav {
+    gap: var(--space-md);
+  }
+}

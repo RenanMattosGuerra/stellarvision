@@ -1,0 +1,12 @@
+@media screen and (min-width: 992px) {
+  main {
+    flex-direction: row;
+  }
+  .earth-gif {
+    width: 360px;
+    height: 360px;
+  }
+  .section-container {
+    flex-direction: row;
+  }
+}

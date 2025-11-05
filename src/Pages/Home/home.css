@@ -1,0 +1,125 @@
+.home-container {
+  width: 100%;
+  height: 200dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+  height: 100dvh;
+  position: absolute;
+  top: 0;
+  background: url(../../Assets/pexels-instawally-176851.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--space-xl);
+  box-shadow: 0px 0px 15px 5px var(--border-muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-wrapper {
+  padding: var(--space-lg);
+  border: 1px solid var(--text);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bg);
+}
+
+.main-img {
+  background: url(../../Assets/pexels-pixabay-2156.webp);
+  background-position: center center;
+  background-size: cover;
+  border-radius: var(--border-radius);
+  width: 400px;
+  height: 300px;
+  opacity: 80%;
+}
+
+.main-img:hover {
+  opacity: 90%;
+}
+
+.home-link {
+  width: 100%;
+  margin-top: var(--space-lg);
+  padding: var(--space-sm);
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 2s ease-in-out;
+  color: var(--text);
+}
+
+.home-link:hover {
+  background: linear-gradient(to right, var(--bg-light), var(--primary));
+}
+
+.arrow-icon {
+  font-size: var(--font-lg);
+}
+
+h2 {
+  font-family: var(--font-two);
+}
+
+p {
+  font-family: var(--font-three);
+  color: var(--text-muted);
+}
+
+.section-container {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: var(--space-xl);
+}
+
+.section-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.section-img {
+  width: 420px;
+  height: 320px;
+  background: url(../../Assets/pexels-spacex-586063.webp);
+  background-position: center center;
+  background-size: cover;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--text);
+  opacity: 80%;
+}
+
+.section-img:hover {
+  opacity: 90%;
+}
+
+.earth-gif {
+  opacity: 90%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url(../../Assets/earth-2768_512.gif);
+  background-position: center center;
+  background-size: cover;
+}
