@@ -1,4 +1,5 @@
 import "./reservation.css";
+import "./mediaquery.css";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 

@@ -1,4 +1,5 @@
 import "./contact.css";
+import "./mediaquery.css";
 import { ToastContainer, toast } from "react-toastify";
 
 const Contact = () => {

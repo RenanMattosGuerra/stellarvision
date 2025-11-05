@@ -12,7 +12,7 @@ const Home = () => {
           <div className="earth-gif"></div>
         </div>
         <div className="main-wrapper">
-          <img className="main-img" alt="Ilustrative Astronaut"></img>
+          <div className="main-img" alt="Ilustrative Astronaut"></div>
 
           <Link to="/reservation" className="home-link">
             <div className="main-text">

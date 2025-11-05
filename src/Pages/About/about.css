@@ -20,36 +20,12 @@
 h4 {
   font-family: var(--font-two);
   color: var(--text);
-  font-size: var(--font-lg);
+  font-size: var(--font-md);
 }
 
 .about-p {
   font-family: var(--font-three);
-  font-size: var(--font-md);
+  font-size: var(--font-sm);
   color: var(--text-muted);
   text-indent: var(--space-lg);
-}
-
-@keyframes colors {
-  0% {
-    box-shadow: 5px 5px 25px 4px var(--border-muted),
-      -5px -5px 25px 4px var(--primary);
-  }
-  25% {
-    box-shadow: -5px 5px 25px 4px var(--border-muted),
-      5px -5px 25px 4px var(--primary);
-  }
-  50% {
-    box-shadow: -5px -5px 25px 4px var(--border-muted),
-      5px 5px 25px 4px var(--primary);
-  }
-  75% {
-    box-shadow: 5px -5px 25px 4px var(--border-muted),
-      -5px 5px 25px 4px var(--primary);
-  }
-
-  100% {
-    box-shadow: 5px 5px 25px 4px var(--border-muted),
-      -5px -5px 25px 4px var(--primary);
-  }
 }

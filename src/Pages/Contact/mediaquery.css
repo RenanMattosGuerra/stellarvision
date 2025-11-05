@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+  label {
+    font-size: var(--font-md);
+  }
+  input {
+    padding: var(--space-md);
+  }
+  .submit-input {
+    padding: var(--space-md);
+    font-size: var(--font-md);
+  }
+}

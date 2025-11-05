@@ -11,6 +11,7 @@
 .form-container {
   width: 80%;
   max-width: 800px;
+  max-height: 75%;
   animation: colors 4s linear infinite;
   padding: var(--space-xl);
   display: flex;
@@ -32,12 +33,13 @@
 
 label {
   font-family: var(--font-three);
+  font-size: var(--font-sm);
 }
 
 input,
 textarea {
   width: 100%;
-  padding: var(--space-md);
+  padding: var(--space-sm);
   background-color: var(--bg);
   border: 1px solid var(--text);
   border-radius: var(--border-radius);
@@ -53,10 +55,11 @@ textarea {
 .submit-input {
   margin-top: var(--space-md);
   border-radius: var(--border-radius);
-  padding: var(--space-md);
+  padding: var(--space-sm);
   font-family: var(--font-two);
   background-color: var(--bg);
   color: var(--text);
+  font-size: var(--font-sm);
   border: none;
   box-shadow: 0px 0px 2px 0px var(--text);
   cursor: pointer;
