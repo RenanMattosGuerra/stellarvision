@@ -11,7 +11,7 @@
 .form-container {
   width: 80%;
   max-width: 800px;
-  max-height: 75%;
+  max-height: 80%;
   animation: colors 4s linear infinite;
   padding: var(--space-xl);
   display: flex;

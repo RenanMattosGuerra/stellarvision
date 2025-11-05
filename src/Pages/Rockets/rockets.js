@@ -1,4 +1,5 @@
 import "./rockets.css";
+import "./mediaquery.css";
 
 const Rockets = () => {
   return (

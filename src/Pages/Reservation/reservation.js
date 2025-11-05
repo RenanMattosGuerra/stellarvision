@@ -47,7 +47,7 @@ const Reservation = () => {
   return (
     <section className="reservation-section">
       <div className="form-container">
-        <h2>Reservation Form</h2>
+        <h4>Reservation Form</h4>
         <form
           className="reservation-form"
           method="POST"

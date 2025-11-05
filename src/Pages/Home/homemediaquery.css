@@ -15,4 +15,10 @@
   p {
     font-size: var(--font-md);
   }
+  .main-img {
+    height: 320px;
+  }
+  .section-img {
+    height: 320px;
+  }
 }
