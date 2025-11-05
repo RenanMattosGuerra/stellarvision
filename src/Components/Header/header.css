@@ -4,7 +4,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 4, 8, 0.808);
+  background-color: rgba(0, 4, 8, 0.884);
   padding: var(--space-md);
   position: fixed;
   top: 0;
@@ -20,7 +20,7 @@ nav {
 
 h1 {
   font-family: var(--font-one);
-  font-size: var(--font-md);
+  font-size: var(--font-sm);
   font-weight: 100;
 }
 
