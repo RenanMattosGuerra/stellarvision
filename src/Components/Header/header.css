@@ -4,11 +4,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 4, 8, 0.884);
+  background-color: rgba(0, 4, 8, 0.411);
   padding: var(--space-md);
   position: fixed;
   top: 0;
   z-index: 50;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
 }
 
 nav {
